@@ -6,7 +6,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: JDKInstall
-          uses: joschi/setup-jdk@v2.3.0
+          uses: Cla-Ver/pps-ci-lab/
           with:
             java-version: 21
         - name: Build
