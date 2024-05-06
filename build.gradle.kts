@@ -1,6 +1,15 @@
 plugins {
-    `java-library`
+    java
+    application
 }
+
+repositories {
+    mavenCentral()
+}
+
+/*application {
+    `java-library`
+}*/
 
 sourceSets {                                
     main {                                  
