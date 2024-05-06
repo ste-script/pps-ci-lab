@@ -7,9 +7,9 @@ repositories {
     mavenCentral()
 }
 
-application {
+/*application {
     `java-library`
-}
+}*/
 
 sourceSets {                                
     main {                                  
